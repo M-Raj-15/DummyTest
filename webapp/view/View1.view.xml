@@ -3,7 +3,12 @@
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
-					<content></content>
+					<content>
+						<Label text="Customer Name"></Label>
+						<Input width="auto"></Input>
+						<Label text="Customer No"></Label>
+						<Input width="auto"></Input>
+					</content>
 				</Page>
 			</pages>
 		</App>
